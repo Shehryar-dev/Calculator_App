@@ -1,16 +1,28 @@
-# a_t_chapter_8
 
-Flutter Calculator Design
+# Flutter Calculator App
 
-## Getting Started
+This is a simple calculator application built using Flutter. It includes basic arithmetic operations and has a minimalistic UI.
 
-This project is a starting point for a Flutter application.
+## Features
+- Addition, Subtraction, Multiplication, and Division
+- Clean and simple UI
+- Uses the `math_expressions 2.6.0` package for expression parsing
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Main UI | Result Screen |
+|---------|---------------|
+| ![UI](assets/screenshots/ui.png) | ![Result](assets/screenshots/result_screen.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Packages Used
+- `math_expressions: ^2.6.0`
+
+## How to Run
+
+1. Clone the repository.
+2. Run `flutter pub get` to install the dependencies.
+3. Run `flutter run` to launch the app.
+
+---
+
+Happy Coding!
